@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "title": "Red flowers",
+    "imageURL": "hearts.jpg",
+    "message": "Hellow looks at this pretty flowers 🌸",
+    "active": true,
+    "icon": "car"
+  },
+  {
+    "id": 1,
+    "title": "Yellow Phone",
+    "imageURL": "telephone.png",
+    "message": "A very yellow telephone 📳",
+    "active": false
+  },
+  {
+    "id": 2,
+    "title": "Blue courtains",
+    "imageURL": "windows.jpg",
+    "message": "The most boring picture of the 3 🟦",
+    "active": true
+  }
+]
