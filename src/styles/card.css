@@ -3,7 +3,6 @@
   padding: 0;
   background: none;
   border: none;
-  font-size: 18px;
 }
 
 .card .header {
@@ -16,16 +15,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-transform: uppercase;
-}
-
-.card .thumbnail {
-  max-width: 100%;
-  height: auto;
 }
 
 .card .title {

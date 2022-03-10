@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
-.App {
-  background-color: grey;
+img {
+  max-width: 100%;
+  height: auto;
 }

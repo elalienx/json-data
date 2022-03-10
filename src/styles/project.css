@@ -3,11 +3,14 @@
   padding: 24px;
 }
 
+/* Grid for the project items */
 .projects .content {
+  --gap: 16px;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 16px;
+  column-gap: var(--gap);
+  row-gap: var(--gap);
 }
 
 /* Larger than tablet */
@@ -18,11 +21,13 @@
     padding: 0;
   }
 
+  /* Grid for the paragraph and content */
   .projects .grid {
     display: grid;
     grid-template-columns: 3fr 9fr;
   }
 
+  /* Grid for the project items */
   .projects .content {
     grid-template-columns: 1fr 1fr 1fr;
   }
