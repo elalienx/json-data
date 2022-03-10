@@ -1,15 +1,15 @@
-.card {
+.project-item {
   margin: 0;
   padding: 0;
   background: none;
   border: none;
 }
 
-.card .header {
+.project-item .header {
   position: relative;
 }
 
-.card .comming-soon {
+.project-item .comming-soon {
   position: absolute;
   top: 0;
   right: 0;
@@ -20,6 +20,6 @@
   text-transform: uppercase;
 }
 
-.card .title {
+.project-item .title {
   display: block;
 }

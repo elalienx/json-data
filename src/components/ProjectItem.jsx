@@ -1,4 +1,4 @@
-export default function Card({ item }) {
+export default function ProjectItem({ item }) {
   const { title, imageURL, message, active } = item;
 
   // Properties
