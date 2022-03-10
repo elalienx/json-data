@@ -10,15 +10,17 @@ export default function Projects() {
 
   return (
     <section className="projects">
-      <h2>Projects</h2>
-      <div className="grid">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nisi
-          quo, facere provident deserunt ex quia autem, nam ea iste consequuntur
-          similique eum porro ipsam voluptatibus. Similique repudiandae
-          provident impedit?
-        </p>
-        <div className="content">{Projects}</div>
+      <div className="section-layout">
+        <h2>Projects</h2>
+        <div className="grid">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nisi
+            quo, facere provident deserunt ex quia autem, nam ea iste
+            consequuntur similique eum porro ipsam voluptatibus. Similique
+            repudiandae provident impedit?
+          </p>
+          <div className="content">{Projects}</div>
+        </div>
       </div>
     </section>
   );

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "React",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "Vue",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "Angular",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "Svelte",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "SvelteKit",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "TypeScript",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "SASS",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "Swift",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "SwiftUI",
+    "imageURL": "https://picsum.photos/200"
+  },
+  {
+    "name": "Firebase",
+    "imageURL": "https://picsum.photos/200"
+  }
+]
