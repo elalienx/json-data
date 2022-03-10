@@ -1,0 +1,12 @@
+.projects {
+  background-color: rgba(175, 0, 255, 0.1);
+}
+.projects h2 {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.projects p {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.projects .content {
+  background-color: rgba(0, 0, 255, 0.5);
+}

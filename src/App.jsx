@@ -9,8 +9,21 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello world</h1>
-      {Projects}
+      <h1>Portoflio page</h1>
+
+      {/* Project */}
+      <section className="projects">
+        <h2>Projects</h2>
+        <div className="grid">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo nisi
+            quo, facere provident deserunt ex quia autem, nam ea iste
+            consequuntur similique eum porro ipsam voluptatibus. Similique
+            repudiandae provident impedit?
+          </p>
+          <div className="content">{Projects}</div>
+        </div>
+      </section>
     </div>
   );
 }
