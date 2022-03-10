@@ -1,11 +1,11 @@
 // Project
-import ProjectItem from "../components/ProjectItem";
-import projects from "../data/projects.json";
+import ProjectItem from "components/ProjectItem";
+import projects from "data/projects.json";
 
 export default function Projects() {
   // Components
-  const Projects = projects.map((item) => (
-    <ProjectItem key={item.id} item={item} />
+  const Projects = projects.map((item, index) => (
+    <ProjectItem key={index} item={item} />
   ));
 
   return (

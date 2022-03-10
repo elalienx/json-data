@@ -5,7 +5,11 @@ export default function ProjectItem({ item }) {
   const image = require(`../assets/images/${imageURL}`);
 
   return (
-    <button className="card" onClick={() => alert(message)} disabled={!active}>
+    <button
+      className="project-item"
+      onClick={() => alert(message)}
+      disabled={!active}
+    >
       <header className="header">
         {!active && <span className="comming-soon">Comming soon</span>}
         <img className="thumbnail" src={image} alt={title} />
