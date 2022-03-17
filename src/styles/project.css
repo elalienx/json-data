@@ -29,6 +29,6 @@
 
   /* Grid for the project items */
   .projects .content {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 6fr 6fr
   }
 }
